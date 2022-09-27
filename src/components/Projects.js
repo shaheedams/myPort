@@ -6,25 +6,25 @@ const Projects = () => {
     {
       id: 1,
       project: "Creschat",
-      img: "%PUBLIC_URL%/images/school.png",
+      img: "images/school.png",
       link: "https://creschat.herokuapp.com",
     },
     {
       id: 2,
       project: "Tesla Clone",
-      img: "%PUBLIC_URL%/images/brand.png",
+      img: "images/brand.png",
       link: "https://shaheedams.github.io/Tesla-Clone",
     },
     {
       id: 3,
       project: "Swiggy menu clone",
-      img: "%PUBLIC_URL%/images/delivery.png",
+      img: "images/delivery.png",
       link: "https://shaheedams.github.io/swiggyClone",
     },
     {
       id: 4,
       project: "E-commerce website",
-      img: "%PUBLIC_URL%/images/online.png",
+      img: "images/online.png",
       link: "https://shaheedams.github.io/pickbazar",
     },
   ];
@@ -36,15 +36,12 @@ const Projects = () => {
             <span className="hilight">P</span>rojects
           </h1>
         </LightSpeed>
-        
-        <div className="projects" style={{marginTop:'10px'}}>
+
+        <div className="projects" style={{ marginTop: "10px" }}>
           {projects.map((e) => {
             return (
               <Flip key={e.id} left>
-                <a
-                  href={e.link}
-                  target="_blank"
-                >
+                <a href={e.link} target="_blank">
                   <div
                     className="card"
                     style={{

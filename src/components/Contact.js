@@ -6,19 +6,19 @@ const Contact = () => {
     {
       id: 11,
       name: "Mail",
-      img: "%PUBLIC_URL%/images/gmail.png",
+      img: "images/gmail.png",
       link: "mailto:mohamedshaheed8055@gmail.com",
     },
     {
       id: 22,
       name: "Github",
-      img: "%PUBLIC_URL%/images/github.png",
+      img: "images/github.png",
       link: "https://github.com/shaheedams",
     },
     {
       id: 33,
       name: "Resume",
-      img: "%PUBLIC_URL%/images/cv.png",
+      img: "images/cv.png",
       link: "/resume/Resume-Mohamed-Shaheed-A.pdf",
     },
   ];
