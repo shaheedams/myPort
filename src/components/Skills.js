@@ -21,7 +21,7 @@ const Skills = () => {
     {
       id: 51,
       skill: "Bootstrap",
-      img: "images/Bootstrap.png",
+      img: "%PUBLIC_URL%/images/bootstrap.png",
     },
     {
       id: 61,
