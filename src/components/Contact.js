@@ -19,7 +19,7 @@ const Contact = () => {
       id: 33,
       name: "Resume",
       img: "images/cv.png",
-      link: "/resume/Resume-Mohamed-Shaheed-A.pdf",
+      link: "resume/Resume-Mohamed-Shaheed-A.pdf",
     },
   ];
   return (
