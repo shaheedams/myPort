@@ -1,0 +1,146 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Audiowide", cursive;
+  color: white;
+}
+
+.Container {
+  width: 100%;
+  height: 100vh;
+  position: relative;
+  scroll-behavior: smooth;
+  overflow: auto;
+  scroll-snap-type: y mandatory;
+}
+
+.section {
+  width: 100%;
+  height: 100vh;
+  scroll-snap-align: start;
+  display: flex;
+  text-align: center;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+  background-color: #08D9D6;
+}
+
+.homeContainer{
+  width: 97%;
+  height: 95%;
+  background-color: black;
+  border-radius: 20px;
+    display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+}
+
+.name{
+    font-size: 7vw;
+    margin: 0;
+}
+
+.subTitle{
+  font-size: 3vw;
+    margin: 0;
+}
+
+.hilight{
+   color: #08D9D6;
+}
+
+.aboutContaier .name{
+  font-size: 5vw;
+}
+.aboutContaier .subTitle{
+  font-size: 2vw;
+  margin: 10px;
+}
+
+.skillsContaier .name{
+  font-size: 5vw;
+}
+.skillsContaier .subTitle{
+  font-size: 2vw;
+  margin: 10px;
+}
+
+.skills{
+  display: flex;
+  flex-wrap: wrap;
+  padding: 10px;
+  max-width: 90%;
+  max-height: 70%;
+  justify-content: center;  
+}
+
+.skills .card{
+   margin: 10px;
+}
+
+.skills .card:hover{
+  border-bottom: 4px solid #08D9D6;
+}
+
+
+.projectContaier .name{
+  font-size: 5vw;
+}
+.projectContaier .subTitle{
+  font-size: 2vw;
+  margin: 10px;
+}
+
+.projects{
+  display: flex;
+  flex-wrap: wrap;
+  padding: 10px;
+  max-width: 90%;
+  max-height: 70%;
+  justify-content: center;  
+}
+
+.projects .card{
+   margin: 10px;
+}
+.projects .card:hover{
+  border-bottom: 4px solid #08D9D6;
+}
+
+
+.contactsContaier .name{
+  font-size: 5vw;
+}
+.contactsContaier .subTitle{
+  font-size: 2vw;
+  margin: 10px;
+}
+
+.contacts{
+  display: flex;
+  flex-wrap: wrap;
+  padding: 10px;
+  max-width: 90%;
+  max-height: 70%;
+  justify-content: center;  
+}
+
+.contacts .card{
+   margin: 10px;
+}
+.contacts .card:hover{
+  border-bottom: 4px solid #08D9D6;
+}
+
+.card{
+  justify-content: center;
+  align-items: center;
+}
+
+a{
+  text-decoration: none;
+}
