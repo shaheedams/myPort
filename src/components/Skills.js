@@ -21,7 +21,7 @@ const Skills = () => {
     {
       id: 51,
       skill: "Bootstrap",
-      img: "%PUBLIC_URL%/images/bootstrap.png",
+      img: "images/bootstrap.png",
     },
     {
       id: 61,
@@ -49,9 +49,14 @@ const Skills = () => {
               <Flip key={e.id} top>
                 <div
                   className="card"
-                  style={{ width: "8rem", height: "10rem", paddingTop:'20px' }}
+                  style={{ width: "8rem", height: "10rem", paddingTop: "20px" }}
                 >
-                  <img src={e.img} style={{width:'80%'}} className="card-img-top" alt=""></img>
+                  <img
+                    src={e.img}
+                    style={{ width: "80%" }}
+                    className="card-img-top"
+                    alt=""
+                  ></img>
                   <div className="card-body">
                     <p className="card-text hilight">{e.skill}</p>
                   </div>
