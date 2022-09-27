@@ -6,25 +6,25 @@ const Projects = () => {
     {
       id: 1,
       project: "Creschat",
-      img: "/images/school.png",
+      img: "%PUBLIC_URL%/images/school.png",
       link: "https://creschat.herokuapp.com",
     },
     {
       id: 2,
       project: "Tesla Clone",
-      img: "/images/brand.png",
+      img: "%PUBLIC_URL%/images/brand.png",
       link: "https://shaheedams.github.io/Tesla-Clone",
     },
     {
       id: 3,
       project: "Swiggy menu clone",
-      img: "/images/delivery.png",
+      img: "%PUBLIC_URL%/images/delivery.png",
       link: "https://shaheedams.github.io/swiggyClone",
     },
     {
       id: 4,
       project: "E-commerce website",
-      img: "/images/online.png",
+      img: "%PUBLIC_URL%/images/online.png",
       link: "https://shaheedams.github.io/pickbazar",
     },
   ];

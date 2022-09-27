@@ -6,27 +6,27 @@ const Skills = () => {
     {
       id: 12,
       skill: "HTML",
-      img: "/images/html.png",
+      img: "%PUBLIC_URL%/images/html.png",
     },
     {
       id: 23,
       skill: "CSS",
-      img: "/images/css.png",
+      img: "%PUBLIC_URL%/images/css.png",
     },
     {
       id: 35,
       skill: "JavaScript",
-      img: "/images/js.png",
+      img: "%PUBLIC_URL%/images/js.png",
     },
     {
       id: 51,
       skill: "Bootstrap",
-      img: "/images/Bootstrap.png",
+      img: "%PUBLIC_URL%/images/Bootstrap.png",
     },
     {
       id: 61,
       skill: "React js",
-      img: "/images/react.png",
+      img: "%PUBLIC_URL%/images/react.png",
     },
   ];
   return (
